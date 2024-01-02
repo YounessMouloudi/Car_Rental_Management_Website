@@ -1,0 +1,52 @@
+
+.dashboard .dashboard-title, 
+.dashboard .dashboard-profile, 
+.dashboard .dashboard-profile .profile-links button{
+    letter-spacing:1px;
+}
+.dashboard .dashboard-profile .profile-img img{
+    border: 2px solid var(--main-color) !important;
+    border-radius : 50%;
+    padding : 12px;
+}
+.dashboard .dashboard-profile .profile-links .nav-link.active
+{
+    background-color: var(--main-color);
+    color:white;
+}
+.dashboard .dashboard-profile .profile-links .nav-link.active a
+{
+    background-color: var(--main-color);
+    color:white;
+}
+.dashboard .dashboard-profile .profile-links .nav-link{
+    color:black;
+}
+.dashboard .dashboard-profile .profile-links .nav-link a {
+    color:black;
+}
+.dashboard .dashboard-details .page-home h4,
+.dashboard .dashboard-details .page-profile h4 {
+    border-bottom: 2px solid orange;
+    width:fit-content; 
+}
+.dashboard .dashboard-details .page-profile input:focus,
+.dashboard .dashboard-details .page-profile select:focus {
+    border: 1px solid var(--main-color);        
+    box-shadow: 0 0 0 1px var(--main-color);
+}
+.dashboard .dashboard-details .page-profile button[type="submit"] {
+    background-color: var(--main-color);
+    color:#fff;
+}
+.dashboard .dashboard-details .page-profile .nav .active {
+    background-color: transparent;
+    color: var(--main-color);
+}
+.dashboard .dashboard-details .page-profile .nav .nav-link:not(.active) {
+    color:black;
+}
+/* .dashboard .dashboard-details .page-profile .nav .nav-link {
+    background-color: transparent;
+    color:black;
+} */

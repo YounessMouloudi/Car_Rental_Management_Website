@@ -1,0 +1,23 @@
+body {
+    background-image:url("../images/404.jpg");
+    background-repeat:no-repeat; 
+    background-size:cover;
+    background-attachment:scroll;
+    background-position:center;
+    min-height: 100vh;
+}
+.container {
+    padding: 100px 10px;
+}
+body .row .part-num h1 {
+    font-size: 145px;
+}
+body .row .part-text h1 {
+    font-size: 45px;
+}
+body .row .part-text a {
+    background-color: var(--main-color);
+}
+/* body .row .part-text a:hover {
+    background-color: var(--green-color);
+} */

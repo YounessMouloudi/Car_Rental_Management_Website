@@ -1,0 +1,10 @@
+.box_input{
+    border: none;
+    outline: none;
+    /* background-color: blue; */
+    width: 45%;
+    padding-top: 1px;
+}
+h5{
+    font-weight: normal ;
+}

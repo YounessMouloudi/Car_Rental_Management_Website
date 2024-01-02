@@ -1,0 +1,85 @@
+
+.box-all-details .arrow {
+    width: 2%;
+    opacity: 1;
+    color : white;
+    display:none;
+}
+
+.box-all-details .cars-details .box-details .box-images .carousel:hover .arrow{
+    display : grid;
+}
+
+.box-all-details .arrow .arrow-left,.arrow .arrow-right {
+    background-color : var(--main-color);
+}
+
+.box-all-details .arrow:hover,.arrow:focus{
+    color : white;
+    opacity: 1;
+}
+
+.box-all-details .cars-details .box-reservation .box-date input{
+    width: 100% !important;
+}
+.box-all-details .cars-details .box-reservation .box-check input[type="number"]{
+    padding: 2px;
+    width: 2.1em;
+    height: 18px;
+    background-color:#f8fafc;
+    appearance: none;
+    vertical-align: top;
+    margin-top: 0.1em;
+    margin-bottom: 0.3em;
+    border: 1px solid rgba(0,0,0,.25);
+    border-radius: 0.25em;
+    outline : none;
+}
+@media(max-width:768px){
+    .box-all-details .cars-details .box-reservation .box-price {
+        width: 50% !important;
+    }
+    .box-all-details .cars-details .box-reservation .details-reservation {
+        width: 75% !important;
+    }
+}
+.box-all-details .cars-details .box-details .box-tabs .nav{
+    border-color: var(--main-color);
+    border-width: 1px;
+}
+.box-all-details .cars-details .box-details .box-tabs .nav .active{
+    border-width: 1px;
+    border-color: var(--main-color);
+    margin-bottom:-2px;
+    color: blue;
+    border-bottom-color:transparent;
+}
+.box-all-details .cars-details .box-details .box-tabs .nav-link {
+    transition: ease-in-out;
+    color:black;
+    font-size:18px;
+}
+.box-all-details .cars-details .box-details .box-tabs .nav-link:hover,
+.box-all-details .cars-details .box-details .box-tabs .nav-link:focus{
+    border-color: transparent;
+}
+.box-all-details .cars-details .box-details .box-tabs .active:hover,
+.box-all-details .cars-details .box-details .box-tabs .active:focus{
+    border-color: var(--main-color);
+    border-bottom-color:transparent;
+}
+.box-all-details .box-similair-cars .box-sim-car {
+    transition: transform 1.2s;
+}
+.box-all-details .box-similair-cars .box-sim-car:hover {
+    transform: scale(1.08);
+    /* padding:8px 18px; */
+}
+@media (max-width:992px) {
+    .box-all-details .box-similair-cars .box-sim-car {
+        transition: transform 0s;
+    }    
+    .box-all-details .box-similair-cars .box-sim-car:hover{
+        transform: none;
+    }
+}

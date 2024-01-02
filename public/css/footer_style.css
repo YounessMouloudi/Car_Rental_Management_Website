@@ -1,0 +1,59 @@
+
+footer {
+    background-color: black;
+    /* background-image: url(../images/car1_BW.jpg); */
+    /* background-repeat:no-repeat; 
+    background-size:cover;
+    background-position: bottom; */
+    color: white;
+}
+footer .links li a {
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0.95;
+    transition: transform 1s ease-out;
+}
+footer .links li a:hover{
+    color: var(--main-color) !important;
+    transform: translateX(10px);
+}
+footer .work no{
+    margin-left: -30px;
+}
+@media(max-width: 992px) {
+    footer .work {
+        margin-left: 0px;
+    }
+}
+footer .infos a{
+    color: white;
+}
+footer .infos a:hover{
+    color: var(--main-color);
+}
+footer .contact > a{ 
+    background-color: var(--main-color);
+    color : white;
+}
+footer .contact > a:hover{ 
+    background-color: var(--main-color);
+}
+footer .copyright .fsk {
+    color : var(--main-color)
+}
+footer .contact ul i {
+    width: 35px;
+    height: 35px;
+} 
+footer .contact .facebook {
+    background-color: #1877f2;
+}
+footer .contact .instagram {
+    background-color: #e1306c;
+}
+footer .contact .twitter {
+    background-color: #1da1f2;
+}
+footer .contact .linkedin {
+    background-color: #0a66c2;
+}

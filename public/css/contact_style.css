@@ -1,0 +1,120 @@
+
+.contact-us{
+    background-image:url("../images/car-06.jpg");
+    background-repeat:no-repeat; 
+    background-size:cover;
+    background-attachment:fixed;
+    min-height: calc(65vh);
+    background-position: center ;
+}
+.map {
+    padding: 100px 15px 85px;
+}
+.contact-left h3, .contact-right h3 {
+    font-size: 24px;
+    color: black;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    transition: all 0.4s ease 0s;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.single-contact-field {
+    margin: 10px 15px 10px 0px;
+}
+.contact-left form input, .contact-left form select {
+    width: 100%;
+    border: 2px solid #ddd;
+    padding: 5px 10px;
+    height: 45px;
+    color: #111;
+    transition: all 0.4s ease 0s;
+    /* margin: 10px 15px 10px 0px; */
+}
+.contact-left form textarea {
+    border: 2px solid #ddd;
+    padding: 5px 10px;
+    /* margin: 10px 0; */
+    color: #111;
+    width: 100%;
+    height: 135px;
+    transition: all 0.4s ease 0s;
+}
+.contact-left form input:focus ,
+.contact-left form select:focus,
+.contact-left form textarea:focus {
+    border : 2px solid var(--main-color);
+    outline : none;
+}
+.single-contact-field button.gauto-theme-btn {
+    width: auto;
+    display: inline-block;
+    margin-top: 10px;
+}
+button.gauto-theme-btn {
+    color: white;
+    background: var(--main-color);
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+    position: relative;
+    display: block;
+    padding: 8px 15px;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin: 0;
+    width: 100%;
+}
+button.gauto-theme-btn:hover {
+    color: #fff;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+    background-color: black;
+    border-color: black;
+}
+button:focus, select:focus {
+    outline: medium none;
+}
+button.gauto-theme-btn:hover:before, button.gauto-theme-btn:hover:after {
+    width: calc(100% + 12px);
+    height: calc(100% + 12px);
+    border-color: black;
+}
+.gauto-btn:before, button.gauto-theme-btn:before {
+    top: -6px;
+    left: -6px;
+    border-width: 2px 0 0 2px;
+    z-index: 5;
+}
+.gauto-btn:after, button.gauto-theme-btn:after {
+    bottom: -6px;
+    right: -6px;
+    border-width: 0 2px 2px 0;
+}
+button.gauto-theme-btn:before, button.gauto-theme-btn:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-color: var(--main-color);
+    box-sizing: border-box;
+    border-style: solid;
+    width: 1em;
+    height: 1em;
+    transition: all 0.3s ease-in-out;
+}
+.contact-details li svg {
+    width : 20px;
+    height: 20px;
+    padding : 10px;
+    background-color: var(--main-color);
+    color: #fff;
+}
+.contact-details li p {
+    letter-spacing : 1px;
+    color : #555
+}
